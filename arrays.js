@@ -12,3 +12,9 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 destructivelyAddElementToBeginningOfArray(chocolateBars, "candy")
+
+function addElementToEndOfArray (array, element){
+  return array = [...array, element]
+}
+
+addElementToEndOfArray(array, "bars")
