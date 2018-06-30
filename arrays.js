@@ -26,3 +26,8 @@ function destructivelyAddElementToEndOfArray(array, element){
 
 destructivelyAddElementToEndOfArray(chocolateBars, "payDay")
 
+function acessElementInArray(array, index){
+  return array[index]
+}
+
+acessElementInArray(chocolateBars, 2)
