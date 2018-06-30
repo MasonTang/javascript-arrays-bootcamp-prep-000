@@ -18,3 +18,7 @@ function addElementToEndOfArray (array, element){
 }
 
 addElementToEndOfArray(array, "bars")
+
+function destructivelyAddElementToEndOfArray(array, element){
+  
+}
