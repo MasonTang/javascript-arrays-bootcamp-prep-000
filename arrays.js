@@ -12,4 +12,3 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 destructivelyAddElementToBeginningOfArray(chocolateBars, "candy")
-
