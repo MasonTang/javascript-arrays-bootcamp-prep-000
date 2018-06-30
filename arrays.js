@@ -44,3 +44,12 @@ function removeElementFromBeginningOfArray(array){
 }
 
 removeElementFromBeginningOfArray(chocolateBars)
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop()
+  return array
+}
+
+destructivelyRemoveElementFromEndOfArray(array)
+
+
