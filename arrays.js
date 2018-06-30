@@ -20,5 +20,7 @@ function addElementToEndOfArray (array, element){
 addElementToEndOfArray(array, "bars")
 
 function destructivelyAddElementToEndOfArray(array, element){
-  
+  array.push(element)
 }
+
+destructivelyAddElementToEndOfArray(chocolateBars, "payDay")
