@@ -31,3 +31,10 @@ function accessElementInArray(array, index){
 }
 
 acessElementInArray(chocolateBars, 2)
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.unshift()
+  return array
+}
+
+destructivelyRemoveElementFromBeginningOfArray(chocolateBars)
