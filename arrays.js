@@ -10,4 +10,5 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return array.unshift(element)
 }
 
+destructivelyAddElementToBeginningOfArray(chocolateBars, "candy")
 
